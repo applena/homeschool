@@ -3,14 +3,22 @@ main {
   top: 100%;
 }
 
+main h2 {
+  font-size: 107px;
+}
+
+main h3 {
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+
 h1 {
-  font-size: 60px;
+  font-size: 80px;
   text-align: center;
   margin: 20px 20px 0px 20px;
 }
 
 nav {
-  padding: 20px;
   padding-top: 40px;
 }
 
@@ -126,4 +134,41 @@ header div button {
 #button-container {
   margin-top: 20px;
   text-align: center;
+}
+
+#Resources {
+  margin: 20px;
+}
+
+#resource-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+#resource-container div img {
+  width: 100%;
+}
+
+#Ramblings {
+  background-color: antiquewhite;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+#Ramblings ul li h3 {
+  cursor: pointer;
+}
+
+#Ramblings ul li ul li {
+  display: none;
+}
+
+article p {
+  margin: 20px;
+}
+
+.title {
+  color: darkorange;
+  font-size: 20px;
 }
