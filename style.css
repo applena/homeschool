@@ -144,6 +144,7 @@ header div button {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  max-width: 1000px;
 }
 
 #resource-container div img {
@@ -156,11 +157,16 @@ header div button {
   min-height: 100vh;
 }
 
-#Ramblings ul li h3 {
+#Ramblings ul li div {
   cursor: pointer;
+  max-height: 200px;
 }
 
-#Ramblings ul li ul li {
+#Ramblings ul li div img {
+  max-height: 200px;
+}
+
+.hidden ul {
   display: none;
 }
 
